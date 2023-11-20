@@ -1,0 +1,7 @@
+def verificar_positivo_negativo(numero):
+    if numero > 0:
+        return 1  # Positivo
+    elif numero < 0:
+        return -1  # Negativo
+    else:
+        return 0  # Igual a zero
