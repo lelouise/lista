@@ -1,0 +1,11 @@
+def exibir_data_por_extenso(dia, mes, ano):
+
+    nomes_meses = [
+        "janeiro", "fevereiro", "março", "abril",
+        "maio", "junho", "julho", "agosto",
+        "setembro", "outubro", "novembro", "dezembro"
+    ]
+
+  
+    print(f"Data: {dia:02d}/{mes:02d}/{ano}, Imprimir: {dia} de {nomes_meses[mes-1]} de {ano}")
+
